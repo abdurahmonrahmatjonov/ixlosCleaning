@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.ico";
 import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 
-export default function Header() {
+const Header: React.FC = () => {
 	const handleCall = () => {
 		window.location.href = "tel:+998987173030";
 	};
@@ -52,4 +52,6 @@ export default function Header() {
 			</button>
 		</div>
 	);
-}
+};
+
+export default Header;
