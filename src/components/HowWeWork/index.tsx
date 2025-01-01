@@ -66,15 +66,14 @@ const HowWeWork: React.FC = () => {
 			<h1 className="mt-20 mb-10 text-center text-5xl font-bold text-blue-700 hover:text-blue-500 ">
 				Biz qanday ishlaymiz
 			</h1>
-			<div className="flex flex-wrap justify-center gap-10">
+			<div className="flex flex-wrap justify-center gap-10 p-5">
 				{source.map((item) => {
 					return (
-						<div key={item.id} className="w-full md:w-1/4 text-center border-blue-600 border-2 p-2">
-							<img
-								src={item.image}
-								alt="work1"
-								className="w-full h-64 object-cover  rounded-lg transform transition duration-300 ease-in-out hover:scale-110"
-							/>
+						<div
+							key={item.id}
+							className="w-full md:w-1/4 text-center border-blue-600 border-2 p-2 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer"
+						>
+							<img src={item.image} alt="work1" className="w-full h-64 object-cover  rounded-lg " />
 							<h2 className="mt-5 text-3xl font-bold hover:text-blue-700">{item.title}</h2>
 							<p className="mt-3 text-lg hover:text-blue-500">{item.description}</p>
 						</div>

@@ -68,12 +68,12 @@ const OurServices: React.FC = () => {
 			<h1 className="mt-20 mb-10 text-center text-5xl font-bold text-blue-700 hover:text-blue-500 ">
 				Xizmatlarimiz
 			</h1>
-			<div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 px-10 flex-wrap justify-center gap-10">
+			<div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 px-10 flex-wrap justify-center gap-10 ">
 				{source.map((item) => {
 					return (
 						<div
 							key={item.id}
-							className="w-full  flex flex-col items-center gap-3 text-center transform hover:scale-105  p-2 rounded-lg border-blue-300 border-2"
+							className="w-full  flex flex-col items-center gap-3 text-center transform hover:scale-105  p-2 rounded-lg border-blue-300 border-2 cursor-pointer"
 						>
 							<img
 								src={item.image}

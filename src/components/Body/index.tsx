@@ -16,11 +16,6 @@ const Body: React.FC = () => {
 
 	const slideImages: SlideImage[] = [
 		{
-			url: "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-			caption: "Gilam yuvish",
-			comment: "Качественная чистка ковров в Ташкенте",
-		},
-		{
 			url: "https://hellocleaners.co.uk/wp-content/uploads/2021/08/carpet-cleaning-services.jpg",
 			caption: "Gilam yuvish",
 			comment: "Качественная чистка ковров в Ташкенте",
@@ -42,11 +37,6 @@ const Body: React.FC = () => {
 		},
 		{
 			url: services,
-			caption: "Gilam yuvish",
-			comment: "Качественная чистка ковров в Ташкенте",
-		},
-		{
-			url: table,
 			caption: "Gilam yuvish",
 			comment: "Качественная чистка ковров в Ташкенте",
 		},
