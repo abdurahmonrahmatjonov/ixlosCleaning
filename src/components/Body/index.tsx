@@ -3,7 +3,6 @@ import image1 from "../../assets/images/image-1.jpg";
 import image3 from "../../assets/images/image-3.jpg";
 import image4 from "../../assets/images/image-4.jpg";
 import services from "../../assets/images/services.jpg";
-import table from "../../assets/images/table.jpg";
 
 interface SlideImage {
 	url: string;
