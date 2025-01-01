@@ -11,7 +11,6 @@ const urls = [{ url: "/", changefreq: "daily", priority: 1.0 }];
 
 	sitemap.pipe(writeStream);
 
-	// Writing URLs to the sitemap
 	urls.forEach((url) => sitemap.write(url));
 	sitemap.end();
 
