@@ -9,9 +9,9 @@ const Header: React.FC = () => {
 	};
 
 	return (
-		<div className="flex items-center justify-around gap-10 mx-5 sm:mx-24 mt-5">
+		<div className="flex items-center justify-around gap-10 mx-5 sm:mx-24 mt-5 flex-wrap">
 			<div className="">
-				<img src={logo} alt="Ixlos gilam yuvish" className="h-28 rounded-lg" />
+				<img src={logo} alt="Euro stirka gilam yuvish" className="h-28 rounded-lg" />
 			</div>
 			<div
 				onClick={() =>
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
 				</div>
 			</div>
 			<button
-				onClick={() => window.open("https://t.me/Ixlos_stirka", "_blank")}
+				onClick={() => window.open("https://t.me/euro_stirka", "_blank")}
 				className="bg-blue-800 text-white w-auto p-3 rounded-xl hover:bg-blue-700"
 			>
 				Buyurtma berish

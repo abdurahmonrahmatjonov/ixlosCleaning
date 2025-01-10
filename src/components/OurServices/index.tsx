@@ -86,7 +86,7 @@ const OurServices: React.FC = () => {
 								<p className=" text-sm  hover:text-blue-500">{item.comment}</p>
 								<button
 									className=" bg-blue-500 w-[200px] py-2 px-5 text-lg rounded-lg hover:bg-blue-600 text-white"
-									onClick={() => window.open("https://t.me/Ixlos_stirka", "_blank")}
+									onClick={() => window.open("https://t.me/euro_stirka", "_blank")}
 								>
 									Buyurtma berish
 								</button>
