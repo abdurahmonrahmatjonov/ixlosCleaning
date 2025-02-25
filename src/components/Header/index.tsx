@@ -28,7 +28,7 @@ const Header: React.FC = () => {
 				<div className="flex flex-col gap-1 ">
 					<span className="text-lg text-blue-500">Address :</span>
 					<span className="text-sm text-gray-400 text-opacity-80">
-						Toshkent shahar Yunusobod tumani 19-kv
+						Toshkent shahar Yunusobod tumani 
 					</span>
 				</div>
 			</div>
