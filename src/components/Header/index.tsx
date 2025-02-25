@@ -14,12 +14,12 @@ const Header: React.FC = () => {
 				<img src={logo} alt="Euro stirka gilam yuvish" className="h-28 rounded-lg" />
 			</div>
 			<div
-				onClick={() =>
-					window.open(
-						"https://yandex.uz/maps/10335/tashkent/?azimuth=6.2646761175075785&ll=69.314517%2C41.385805&mode=whatshere&tilt=0.02826095821914182&whatshere%5Bpoint%5D=69.313099%2C41.386394&whatshere%5Bzoom%5D=17&z=17.53",
-						"_blank"
-					)
-				}
+				// onClick={() =>
+				// 	window.open(
+				// 		"https://yandex.uz/maps/10335/tashkent/?azimuth=6.2646761175075785&ll=69.314517%2C41.385805&mode=whatshere&tilt=0.02826095821914182&whatshere%5Bpoint%5D=69.313099%2C41.386394&whatshere%5Bzoom%5D=17&z=17.53",
+				// 		"_blank"
+				// 	)
+				// }
 				role="button"
 				aria-label="location"
 				className="flex items-start"

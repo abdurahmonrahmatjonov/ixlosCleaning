@@ -18,7 +18,7 @@ const OurServices: React.FC = () => {
 		{
 			id: 1,
 			title: "Gilam yuvish",
-			price: "13 000 so'm/m² ",
+			price: "14 000 so'm/m² ",
 			comment: "Eng kam buyurtma (15 m²) hisoblanadi.",
 			image: gilam,
 		},
