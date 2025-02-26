@@ -48,7 +48,7 @@ const OurServices: React.FC = () => {
 		},
 		{
 			id: 6,
-			title: "Kopracha yuvish",
+			title: "Ko'rpacha yuvish",
 			price: "60 000 - 120 000 so'm / dona",
 			image: korpachaYuvish,
 		},
